@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numimath"
+version = "0.1.0"
+description = "A lightweight mathematical utility package providing basic arithmetic and statistics helpers."
+readme = "README.md"
+authors = [
+    { name = "IZERE Joshua", email = "izerejoshua94@gmail.com" }
+]
+license = "MIT"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["math", "arithmetic", "statistics", "mean", "median", "utilities"]
+
+[project.urls]
+"Homepage" = "https://github.com/I-Josh-pro-grammin/numimath"
+"Bug Tracker" = "https://github.com/I-Josh-pro-grammin/numimath/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
